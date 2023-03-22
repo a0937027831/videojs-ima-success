@@ -64,8 +64,8 @@ function onReady() {
   };
   player.ima(adsOptions);
   player.src({
-    src: 'https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8',
-    type: 'application/x-mpegURL',
+    src: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    type: 'video/mp4',
   });
 }
 
